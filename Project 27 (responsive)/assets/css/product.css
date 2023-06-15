@@ -1,0 +1,1049 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Satoshi", sans-serif;
+}
+
+.header-offer-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-icons a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-offer {
+  background-color: #2a254b;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 10px;
+  gap: 10px;
+}
+
+.head-offer-title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.header-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+}
+.header-logo a {
+  font-family: Clash Display;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-decoration: none;
+  color: #22202e;
+}
+.header-nav {
+  display: block;
+}
+.header-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+.header-nav li {
+  list-style: none;
+}
+.header-nav a {
+  text-decoration: none;
+  color: #726e8d;
+}
+.header-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.fa-bars {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* ------------------------------------- SECTION  1 --------------------------------- */
+
+.sec1 {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.sec1-img {
+  height: 759px;
+  width: 721px;
+}
+.sec1-content {
+  padding: 51px 55px;
+  width: 42%;
+}
+.sec1-title {
+  font-family: Clash Display;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  margin-bottom: 13px;
+  color: #2a254b;
+}
+.sec1-price {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 54px;
+  color: #12131a;
+}
+h3 {
+  font-family: Clash Display;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 13px;
+  color: #2a254b;
+}
+.sec1-desc-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 20px;
+  color: #505977;
+}
+
+.sec1-nav ul {
+  margin-bottom: 50px;
+  margin-left: 15px;
+}
+
+.sec1-nav ul li {
+  color: #505977;
+}
+
+h4 {
+  font-family: Clash Display;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 28px;
+  color: #2a254b;
+}
+
+.sec1-dimensions {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+}
+.sec1-dimensions p:nth-child(1) {
+  color: #2a254b;
+}
+.sec1-dimensions p:nth-child(2) {
+  color: #505977;
+}
+
+.sec1-dimensions-prop {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sec1-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sec1-btn {
+  width: 143px;
+  line-height: 24px;
+  padding: 16px 32px;
+  color: #fff;
+  background-color: #2a254b;
+  border: none;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  width: 160px;
+}
+
+.quantity input,
+.quantity button {
+  width: 50px;
+  padding: 12px 16px;
+  text-align: center;
+  background: #f9f9f9;
+  border: none;
+}
+
+.sec1-mobile-amount {
+  display: none;
+}
+
+/* ---------------------- SECTION 2 ------------------ */
+
+.sec2 {
+  padding: 80px 80px 56px;
+}
+
+.sec2-title {
+  font-family: Clash Display;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39.6px;
+  color: #2a254b;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.sec2-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: none;
+  padding: 0px;
+}
+
+.sec2-product:nth-child(1) {
+  order: -3;
+}
+.sec2-product:nth-child(2) {
+  order: -1;
+}
+
+.sec2-product:nth-child(3) {
+  order: -2;
+}
+
+.sec2-product:nth-child(4) {
+  order: -4;
+}
+
+.sec2-product {
+  display: flex;
+  flex-direction: column;
+}
+.sec2-img {
+  width: 305px;
+  height: 375px;
+}
+.sec2-product-title {
+  font-family: Clash Display;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #2a254b;
+  margin-top: 24px;
+}
+.sec2-product-price {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #2a254b;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.sec2-btn {
+  display: flex;
+  justify-content: center;
+  height: 56px;
+  width: 170px;
+  padding: 16px 32px;
+  color: #2a254b;
+  border: none;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+
+/* --------------------    SECTION 3 -------------------- */
+.sec3 {
+  padding: 60px 80px;
+}
+.sec3-title {
+  font-family: Clash Display;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #2a254b;
+  width: auto;
+  text-align: left;
+  margin-bottom: 35px;
+}
+.sec3-services-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+}
+.sec3-services i {
+  margin-bottom: 16px;
+  width: 24px;
+  height: 24px;
+}
+.sec3-services-title {
+  font-family: Clash Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #2a254b;
+  margin-bottom: 8px;
+}
+.sec-3-services-text {
+  font-family: Satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #2a254b;
+}
+
+/* ---------------------------------------SECTION 4-------------------------------- */
+
+.sec4 {
+  background-color: #f9f9f9;
+  padding: 52px 74px 65px 93px;
+}
+
+.sec4-container {
+  padding: 48px 19px 38px 24px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec4-title {
+  font-family: Clash Display;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50px;
+  color: #2a254b;
+  margin-bottom: 16px;
+}
+.sec4-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #2a254b;
+  width: 470px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+input {
+  padding: 17px 32px;
+  background-color: #f9f9f9;
+  border: none;
+  width: 354px;
+}
+input::placeholder {
+  color: #2a254b;
+}
+
+.sec4-btn {
+  height: 56px;
+  width: 118px;
+  padding: 16px 32px;
+  background-color: #2a254b;
+  color: #fff;
+  border: none;
+}
+/* ---------------------------------------FOOTER-------------------------------- */
+
+footer {
+  padding: 58px 83px 25px 80px;
+  background-color: #2a254b;
+}
+
+.footer-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 200px;
+  margin-bottom: 48px;
+}
+
+.footer-nav li:first-child a {
+  font-family: Clash Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+#footer-logo {
+  font-family: Clash Display;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav ul {
+  list-style: none;
+  margin: 0px;
+}
+.footer-nav ul:first-child {
+  list-style: none;
+  margin-bottom: 40px;
+}
+.footer-nav ul:nth-child(2) {
+  list-style: none;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  /* margin-right: 109px; */
+}
+
+.footer-nav li {
+  margin-bottom: 12px;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+footer .sec5-btn {
+  color: #2a254b;
+  background-color: #fff;
+  padding: 16px 32px;
+}
+
+footer .border {
+  border-bottom: 1px solid #4e4d93;
+  width: 100%;
+  height: 1px;
+  margin-top: 16px;
+}
+
+.copyright {
+  /* margin-top: 20px; */
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #fff;
+  margin: 0px;
+}
+
+.copyrightdiv {
+  padding-top: 20px;
+}
+.socialmedia {
+  display: flex;
+  gap: 27px;
+}
+
+.socialmedia-div p {
+  font-family: Clash Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+footer .fa-brands {
+  color: #fff;
+}
+
+/* ---------------------------------------FOOTER-------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+  }
+
+  .header-all {
+    padding: 27px 24px;
+  }
+
+  .header-icons {
+    display: flex;
+    gap: 20px;
+  }
+
+  /*------------------------- SECTION 1  ----------------------- */
+
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  .sec1-img {
+    height: 50%;
+    width: 100%;
+  }
+  .sec1-content {
+    padding: 28px 24px 46px;
+    width: 100%;
+  }
+  .sec1-title {
+    font-size: 24px;
+    line-height: 33.6px;
+    margin-bottom: 12px;
+  }
+  .sec1-price {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+  h3 {
+    line-height: 16px;
+    line-height: 22.4px;
+    margin-bottom: 12px;
+  }
+  .sec1-desc-text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 12px;
+  }
+
+  .sec1-nav ul {
+    margin-bottom: 28px;
+    margin-left: 15px;
+  }
+
+  /* ---------------------- SECTION 2 ------------------ */
+
+  .sec2 {
+    padding: 35px;
+  }
+
+  .sec2-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 0px;
+    gap: 16px;
+  }
+  .sec2-product {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec2-img {
+    width: 305px;
+    height: 375px;
+  }
+  .sec2-product-title {
+    font-family: Clash Display;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2a254b;
+    margin-top: 24px;
+  }
+  .sec2-product-price {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #2a254b;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+
+  .sec2-btn {
+    height: 56px;
+    width: 90%;
+    padding: 16px 32px;
+    color: #2a254b;
+    border: none;
+    margin: 10px 24px;
+    margin-bottom: 20px;
+  }
+
+  /* ---------------------------------------FOOTER-------------------------------- */
+
+  /* ---------------------------------------FOOTER-------------------------------- */
+
+  footer {
+    padding: 40px 24px 20px;
+    background-color: #2a254b;
+  }
+
+  .footer-mobile-none {
+    display: none;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-flow: column wrap;
+
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+
+  .footer-nav li {
+    margin-bottom: 12px;
+  }
+
+  .footer-nav li:first-child a {
+    font-family: Clash Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0px;
+  }
+
+  .footer-nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+
+  footer .border {
+    border-bottom: 1px solid #4e4d93;
+    width: 100%;
+    height: 1px;
+    margin-top: 16px;
+  }
+
+  .copyright {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #fff;
+  }
+
+  .copyrightdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  footer .fa-brands {
+    color: #fff;
+  }
+
+  .socialmedia-div {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  .socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+    width: 60%;
+  }
+
+  .form-nav {
+    display: block;
+  }
+
+  .footer-nav .socialmedia-div {
+    order: 1;
+  }
+  .footer-nav .footer-order {
+    order: 2;
+  }
+
+  .sec3 {
+    padding: 20px;
+  }
+
+  .sec4 {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .header-nav {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+  }
+
+  .header-all {
+    padding: 27px 24px;
+  }
+
+  .header-icons {
+    display: flex;
+    gap: 20px;
+  }
+
+  /* ------------------------------------- SECTION  1 --------------------------------- */
+
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+  }
+  .sec1-img {
+    height: 380px;
+    width: 390px;
+  }
+  .sec1-content {
+    padding: 28px 24px 46px;
+    width: 100%;
+  }
+  .sec1-title {
+    font-size: 24px;
+    line-height: 33.6px;
+    margin-bottom: 12px;
+  }
+  .sec1-price {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 28px;
+  }
+  h3 {
+    line-height: 16px;
+    line-height: 22.4px;
+    margin-bottom: 12px;
+  }
+  .sec1-desc-text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 12px;
+  }
+
+  .sec1-nav ul {
+    margin-bottom: 28px;
+    margin-left: 15px;
+  }
+
+  .sec1-nav ul li {
+    color: #505977;
+  }
+
+  h4 {
+    font-family: Clash Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    margin-bottom: 16px;
+    color: #2a254b;
+  }
+
+  .sec1-dimensions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 51px;
+  }
+  .sec1-dimensions p:nth-child(1) {
+    color: #2a254b;
+  }
+  .sec1-dimensions p:nth-child(2) {
+    color: #505977;
+  }
+
+  .sec1-border {
+    display: block;
+    height: 44px;
+    border-left: 1px solid #ebe8f4;
+  }
+
+  .sec1-dimensions-prop {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .sec1-action {
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 50px;
+  }
+
+  .sec1-btn {
+    width: 100%;
+    line-height: 24px;
+    padding: 16px 32px;
+    color: #fff;
+    background-color: #2a254b;
+    border: none;
+  }
+
+  .sec1-amount {
+    display: none;
+  }
+
+  .quantity {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0px 100px;
+    background: #f9f9f9;
+    margin-bottom: 16px;
+  }
+
+  .quantity button {
+    /* width: 100%; */
+    padding: 12px 16px;
+    /* text-align: center; */
+    /* background: #f9f9f9; */
+    border: none;
+  }
+
+  .sec1-mobile-amount {
+    display: block;
+    padding-right: 80%;
+    margin-bottom: 12px;
+  }
+
+  /* ---------------------- SECTION 2 ------------------ */
+
+  .sec2 {
+    padding: 0px;
+  }
+
+  .sec2-title {
+    font-family: Clash Display;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #2a254b;
+    padding-left: 24px;
+    margin-bottom: 0px;
+  }
+  .sec2-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 20px 24px;
+    gap: 16px;
+  }
+  .sec2-product {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec2-img {
+    width: 163px;
+    height: 201px;
+  }
+  .sec2-product-title {
+    font-family: Clash Display;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2a254b;
+    margin-top: 24px;
+  }
+  .sec2-product-price {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #2a254b;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+
+  .sec2-btn {
+    height: 56px;
+    width: 342px;
+    padding: 16px 32px;
+    color: #2a254b;
+    border: none;
+    margin: 10px 24px;
+    margin-bottom: 20px;
+  }
+
+  /* --------------------    SECTION 3 -------------------- */
+  .sec3 {
+    padding: 45px 24px;
+  }
+  .sec3-title {
+    font-family: Clash Display;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2a254b;
+    width: 275px;
+    margin-bottom: 35px;
+  }
+  .sec3-services-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+  .sec3-services i {
+    margin-bottom: 16px;
+    width: 24px;
+    height: 24px;
+  }
+  .sec3-services-title {
+    font-family: Clash Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #2a254b;
+    margin-bottom: 12px;
+  }
+  .sec-3-services-text {
+    font-family: Satoshi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #2a254b;
+  }
+
+  /* ---------------------------------------SECTION 4-------------------------------- */
+
+  .sec4 {
+    padding: 0px;
+  }
+
+  .sec4-container {
+    padding: 48px 19px 38px 24px;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .sec4-title {
+    font-family: Clash Display;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2a254b;
+    margin-bottom: 16px;
+  }
+  .sec4-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #2a254b;
+    margin-bottom: 64px;
+    text-align: left;
+    width: auto;
+  }
+  input {
+    padding: 17px 32px;
+    background-color: #f9f9f9;
+    border: none;
+    width: 224px;
+  }
+  input::placeholder {
+    color: #2a254b;
+  }
+
+  .sec4-btn {
+    height: 56px;
+    width: 118px;
+    padding: 16px 32px;
+    background-color: #2a254b;
+    color: #fff;
+    border: none;
+  }
+  /* ---------------------------------------FOOTER-------------------------------- */
+
+  footer {
+    padding: 40px 24px 20px;
+    background-color: #2a254b;
+  }
+
+  .footer-mobile-none {
+    display: none;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-flow: column wrap;
+    height: 478px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+
+  .footer-nav li {
+    margin-bottom: 12px;
+  }
+
+  .footer-nav li:first-child a {
+    font-family: Clash Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0px;
+  }
+
+  .footer-nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+
+  footer .border {
+    border-bottom: 1px solid #4e4d93;
+    width: 100%;
+    height: 1px;
+    margin-top: 16px;
+  }
+
+  .copyright {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #fff;
+  }
+
+  .copyrightdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  footer .fa-brands {
+    color: #fff;
+  }
+
+  .socialmedia-div {
+    width: 30%;
+    margin-top: 10px;
+  }
+
+  .socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+    width: 100%;
+  }
+
+  .form-nav {
+    display: block;
+  }
+
+  .footer-nav .socialmedia-div {
+    order: 1;
+  }
+  .footer-nav .footer-order {
+    order: 2;
+  }
+}
